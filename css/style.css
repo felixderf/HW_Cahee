@@ -48,7 +48,7 @@ img {
 .btn {
   display: inline-block;
   width: 100%;
-  padding: 20px 10px;
+  padding: 14px 10px;
   width: 100%;
   text-align: center;
   text-decoration: none;
@@ -645,7 +645,6 @@ img {
 .subscribe-to-us {
   background-image: url("../img/subscribe-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
   padding: 140px 0 163px 0;
 }
 
@@ -683,7 +682,7 @@ img {
 
 .subscribe-to-us__input {
   width: 100%;
-  padding: 22px 15px;
+  padding: 16px 15px;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 15px;
