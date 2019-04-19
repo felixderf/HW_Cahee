@@ -1,0 +1,26 @@
+.blog {
+    background-color: #b07cf7;
+    padding-top: 85px;
+    padding-bottom: 120px;
+
+    &__header {
+        text-align: center;
+    
+        &--margin-bottom {
+            margin-bottom: 43px;
+        }
+    }
+
+    &__title {
+        color: $color-white;
+        margin-bottom: 18px;
+    }
+
+    &__description {
+        color: $color-white;
+    }
+
+    &__btn {
+        background-color: #f72b3b;
+    }
+}

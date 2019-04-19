@@ -1,0 +1,36 @@
+.footer {
+    padding: 30px 0;
+    background-color: #262626;
+
+    &__copyright {
+        font-family: $font-raleway;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        color: $color-footer;
+    }
+
+    &__logo-small {
+        font-family: $font-pacifico;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 25px;
+        color: $color-footer;
+    }
+
+    &__postscript {
+        font-family: $font-raleway;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 25px;
+        color: $color-footer;
+
+        a {
+            margin: 0 4px;
+            text-decoration: none;
+            font-weight: 700;
+            color: #ff2b58;
+        }
+        
+    }
+}

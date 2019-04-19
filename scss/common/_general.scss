@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+    &:before,
+    &:after {
+        box-sizing: border-box;
+    }
+}
+
+body {
+    font-family: $font-lato;
+    font-size: 14px;
+    color: $color-base;
+}
+
+img {
+    max-width: 100%;
+}
+
+.grid {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.pos-mid {
+    margin: 0 auto; 
+
+}
+
+
+
+

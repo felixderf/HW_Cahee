@@ -1,0 +1,42 @@
+.text-box {
+    margin: 0 auto;
+    text-align: center;
+
+    &--color-white {
+        border-color: white;
+        color: white;
+    }
+
+    &__title {
+        position: relative;
+        color: $color-base;
+    }
+
+    &__title:before {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        width: 25%;
+        top: 50%;
+        left: 0;
+        border-bottom: 2px solid #000;
+    }
+
+    &__title:after {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        width: 25%;
+        top: 50%;
+        right: 0;
+        border-bottom: 2px solid #000;
+    }
+
+    &__wrapper {
+        margin-top: -20px;
+        padding: 60px 100px 25px 100px;
+        width: 100%;
+        border: 2px solid #000;
+        border-top: 0;
+    }
+}

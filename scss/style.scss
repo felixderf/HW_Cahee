@@ -1,0 +1,26 @@
+@import "mixins";
+@import "variables";
+
+// Common 
+@import "common/typography";
+@import "common/general";
+
+// Elements
+@import "elements/btn";
+@import "elements/just-flex";
+@import "elements/nav";
+@import "elements/page-blog";
+@import "elements/scroll-down-btn";
+@import "elements/text-box";
+
+// Parts
+@import "parts/hero";
+@import "parts/links-set";
+@import "parts/about_us";
+@import "parts/our-services";
+@import "parts/gallery";
+@import "parts/subscribe-to-us";
+@import "parts/blog";
+@import "parts/contact";
+@import "parts/footer";
+

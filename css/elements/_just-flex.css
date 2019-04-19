@@ -1,0 +1,22 @@
+.just-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .just-flex--start {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: flex-start; }
+  .just-flex--center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: center; }
+  .just-flex--end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-self: flex-end; }
